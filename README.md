@@ -9,6 +9,8 @@ Demo details:
 3. Client's original target destination would also be 10000.
 4. We assume that the client's target destination has been modified via HOSTS file to point to proxy server listening at port 3333.
 
+![Alt text](flow.png?raw=true "Title")
+
 Steps highlighted in red refers to the flow:
 1. Client sends a message "hello world" to the server running at port 10000.
 2. Client's target destination has been changed to 3333, therefore Proxy Server intercepts receives the message.
